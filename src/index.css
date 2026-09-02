@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Utilities for Corpo Ativo Branding */
+.bg-brand-teal {
+  background-color: #0d7a75;
+}
+
+.text-brand-teal {
+  color: #0d7a75;
+}
+
+.border-brand-teal {
+  border-color: #0d7a75;
+}
+
+.bg-brand-light {
+  background-color: #f0fdfa;
+}
+
+/* Smooth transition for buttons */
+.btn-hover-effect {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-hover-effect:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(13, 122, 117, 0.25);
+}

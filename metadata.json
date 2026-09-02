@@ -1,0 +1,6 @@
+{
+  "name": "Studio Corpo Ativo - Fisioterapia e Pilates",
+  "description": "Site oficial do Studio Corpo Ativo em Curitiba - PR. Pilates de equipamentos e solo, fisioterapia, liberação miofascial e laserterapia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
