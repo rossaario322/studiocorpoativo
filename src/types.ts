@@ -37,7 +37,7 @@ export interface StudioInfo {
     city: string;
     state: string;
     zipCode: string;
-    plusCode: string;
+    referencePoint?: string;
     fullFormatted: string;
   };
   phones: {

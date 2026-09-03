@@ -59,10 +59,15 @@ export const LocationSection: React.FC<LocationSectionProps> = ({ onOpenContactM
                 </p>
               </div>
 
-              {/* Plus code */}
-              <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 text-xs text-slate-600 flex items-center justify-between">
-                <span className="font-medium text-slate-700">Plus Code:</span>
-                <span className="font-mono text-xs font-bold text-teal-800">{CLINIC_INFO.address.plusCode}</span>
+              {/* Ponto de Referência e Estacionamento */}
+              <div className="bg-emerald-50/70 p-3.5 rounded-2xl border border-emerald-200/80 text-xs text-slate-700 space-y-1">
+                <div className="flex items-center gap-1.5 font-bold text-emerald-900">
+                  <MapPin className="w-3.5 h-3.5 text-emerald-700" />
+                  <span>Ponto de Referência & Facilidade:</span>
+                </div>
+                <p className="text-[11px] text-slate-600 leading-relaxed">
+                  Prédio comercial no coração do Jardim das Américas, com vagas para estacionamento na frente e fácil acesso para desembarque.
+                </p>
               </div>
 
               {/* Telefone & WhatsApp */}

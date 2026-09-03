@@ -11,7 +11,7 @@ export const CLINIC_INFO: StudioInfo = {
     city: "Curitiba",
     state: "PR",
     zipCode: "81530-430",
-    plusCode: "GQ M8+VQ Jardim das Américas, Curitiba - PR",
+    referencePoint: "Prédio comercial com vagas em frente no Jardim das Américas",
     fullFormatted: "Rua Joaquim Amaral, 276 - Jardim das Américas, Curitiba - PR, 81530-430"
   },
   phones: {
