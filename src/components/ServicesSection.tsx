@@ -198,15 +198,15 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onOpenContactM
         <div className="mt-12 bg-gradient-to-r from-teal-900 to-emerald-900 text-white rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg">
           <div className="space-y-2 text-center md:text-left">
             <h4 className="text-xl font-serif font-bold">
-              Prefere aulas individuais ou em grupo?
+              Prefere aulas individuais ou em grupo de duas pessoas?
             </h4>
             <p className="text-xs sm:text-sm text-teal-100 max-w-2xl">
-              No Studio Corpo Ativo oferecemos opções de frequências de 1x, 2x ou 3x por semana, com turmas reduzidas e atenção humanizada.
+              No Studio Corpo Ativo atendemos de um ou dois alunos por horário (que é o máximo que o espaço suporta), garantindo acompanhamento próximo e atenção focada na sua evolução.
             </p>
           </div>
 
           <button
-            onClick={() => onOpenContactModal('Informações de Turmas e Horários')}
+            onClick={() => onOpenContactModal('Informações de Aulas e Horários')}
             className="inline-flex items-center gap-2 bg-white text-teal-950 font-bold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-md hover:bg-emerald-50 transition-colors shrink-0 cursor-pointer"
           >
             <MessageCircle className="w-4 h-4 text-emerald-700" />

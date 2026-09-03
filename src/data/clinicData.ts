@@ -41,7 +41,7 @@ export const SERVICES: Service[] = [
     subtitle: "Aparelhos Específicos & Exercícios Guiados",
     description: "Método de exercícios físicos em aparelhos específicos de alta qualidade (Metalife) para fortalecer o corpo, melhorar flexibilidade, postura e consciência corporal.",
     details: [
-      "Aulas individuais ou em grupo",
+      "Aulas individuais ou em grupo de duas pessoas",
       "Aulas preparadas individualmente conforme a necessidade de cada aluno",
       "Aparelhos limpos, aconchegantes e bem conservados",
       "Opções de frequência: 1x, 2x ou 3x por semana"
@@ -115,11 +115,11 @@ export const SERVICES: Service[] = [
 
 export const PROMOTION_INFO: PromoOption = {
   title: "Promoção de 10% de Desconto",
-  description: "Desconto especial de 10% nas mensalidades para o Plano Trimestral ou para grupos familiares praticando no mesmo horário.",
+  description: "Desconto especial de 10% nas mensalidades para o Plano Trimestral ou para dupla familiar (duas pessoas) praticando no mesmo horário.",
   discountPercentage: 10,
   conditions: [
     "Aplica-se ao contratar o Plano Trimestral (em qualquer frequência: 1x, 2x ou 3x por semana)",
-    "OU no Plano Familiar quando 2 ou mais pessoas da mesma família praticam no mesmo horário",
+    "OU no Plano Familiar quando duas pessoas da mesma família praticam no mesmo horário",
     "Garante 10% de desconto nas mensalidades correspondentes"
   ]
 };
@@ -177,6 +177,6 @@ export const INSTAGRAM_HIGHLIGHTS = [
     id: "post-para-todos",
     title: "Pilates para Todos",
     category: "Atendimento",
-    caption: "Aulas individuais ou em grupo com atenção humanizada adaptada para cada faixa etária e objetivo."
+    caption: "Aulas individuais ou em grupo de duas pessoas com atenção humanizada adaptada para cada faixa etária e objetivo."
   }
 ];

@@ -112,7 +112,7 @@ export const SpaceGallery: React.FC<SpaceGalleryProps> = ({ onOpenContactModal }
                 </p>
                 <div className="flex items-center gap-2 text-xs font-medium text-teal-800 pt-1">
                   <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>Aparelhos prontos para aula individual ou em grupo reduzido</span>
+                  <span>Aparelhos prontos para aula individual ou de um ou dois alunos</span>
                 </div>
               </div>
             </div>

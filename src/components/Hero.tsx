@@ -50,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContactModal }) => {
                 <span className="text-teal-800 italic font-normal">Pilates & Fisioterapia</span>
               </h1>
               <p className="text-base sm:text-lg text-slate-600 max-w-2xl leading-relaxed font-sans">
-                Aulas individuais ou em grupo preparadas de forma personalizada para a sua necessidade. Foco na disposição, alívio de dores, postura e qualidade de vida.
+                Aulas individuais ou em grupo de duas pessoas preparadas de forma personalizada para a sua necessidade. Foco na disposição, alívio de dores, postura e qualidade de vida.
               </p>
             </div>
 

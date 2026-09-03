@@ -34,12 +34,12 @@ export const PromoBanner: React.FC<PromoBannerProps> = ({ onOpenContactModal }) 
               </div>
               <div className="flex items-center gap-2">
                 <Users className="w-4 h-4 text-amber-300" />
-                <span>Plano Familiar (2+ pessoas no mesmo horário)</span>
+                <span>Plano Familiar (duas pessoas no mesmo horário)</span>
               </div>
             </div>
 
             <p className="text-[11px] text-emerald-300/90 italic pt-1">
-              📌 <strong>Aviso</strong>: O desconto familiar aplica-se a grupos de duas ou mais pessoas da mesma família treinando juntas no mesmo horário.
+              📌 <strong>Aviso</strong>: O desconto familiar aplica-se a duas pessoas da mesma família treinando juntas no mesmo horário (capacidade máxima de 2 alunos por horário).
             </p>
           </div>
 

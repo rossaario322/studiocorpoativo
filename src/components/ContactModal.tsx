@@ -160,7 +160,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
             >
               <option value="mensal">Plano Mensal (Padrão)</option>
               <option value="trimestral">Plano Trimestral (10% OFF em todas as mensalidades)</option>
-              <option value="familiar">Plano Familiar / Dupla (10% OFF para 2+ pessoas no mesmo horário)</option>
+              <option value="familiar">Plano Familiar / Dupla (10% OFF para duas pessoas no mesmo horário)</option>
             </select>
           </div>
 
@@ -175,11 +175,11 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
                 <span className="text-emerald-800 text-[11px] block">
                   {planOption === 'trimestral' 
                     ? '10% de desconto garantido no contrato do Plano Trimestral.' 
-                    : '10% de desconto garantido ao praticar em grupo familiar no mesmo horário.'}
+                    : '10% de desconto garantido ao praticar em dupla familiar (duas pessoas) no mesmo horário.'}
                 </span>
                 {planOption === 'familiar' && (
                   <span className="text-[10px] text-teal-800 font-semibold bg-emerald-100/80 px-2 py-0.5 rounded border border-emerald-300/60 block mt-1">
-                    📌 <strong>Aviso</strong>: Válido para 2 ou mais pessoas da mesma família realizando as aulas no mesmo horário. O desconto de 10% é aplicado na mensalidade de cada aluno.
+                    📌 <strong>Aviso</strong>: Válido para duas pessoas da mesma família realizando as aulas no mesmo horário (capacidade máxima de 2 alunos por horário). O desconto de 10% é aplicado na mensalidade de cada aluno.
                   </span>
                 )}
               </div>
@@ -188,7 +188,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, def
             <div className="flex items-start gap-2 p-2.5 rounded-xl border border-slate-200 bg-slate-50 text-slate-600 text-[11px]">
               <Info className="w-4 h-4 text-slate-400 shrink-0 mt-0.5" />
               <span>
-                Para ativar <strong>10% de desconto</strong>, escolha o <strong>Plano Trimestral</strong> ou o <strong>Plano Familiar</strong> (mínimo de 2 pessoas no mesmo horário).
+                Para ativar <strong>10% de desconto</strong>, escolha o <strong>Plano Trimestral</strong> ou o <strong>Plano Familiar</strong> (duas pessoas no mesmo horário).
               </span>
             </div>
           )}
